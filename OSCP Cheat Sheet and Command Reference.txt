@@ -1,3 +1,13 @@
+-- Scanning--
+
+# Quick Scan #
+nmap 192.168.199.1 --top-port 10 --open
+
+# Intense Scan
+nmap -p 1-65535 -T4 -A -v 192.168.199.1 
+
+
+-- Web --
 
 
 
@@ -19,4 +29,3 @@
 
 
 
-https://casvancooten.com/posts/2020/05/oscp-cheat-sheet-and-command-reference/
